@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+body{
+    font-family: 'Delius', cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 20px;
+    color: white;
+    padding: 0 20px;
+    background: #b4c0b6;
+}
+.container{
+    width: auto;
+    min-height: 100vh;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #ffffff;
+    border-width: thick;
+    border-style: solid;
+    background-color: #8b92a7;
+    position: relative;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 20px;
+    overflow: hidden;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+header h2, header h6, header img{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+header h2 {
+    flex:1;
+}
+header img{
+    margin: 0 auto;
+    height: 200px;
+}
+h1, .competentiesTitle{
+    position: absolute;
+    left: 48%;
+    right: auto;
+    transform: translateX(-50%);
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: #2d2327;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.navbar a {
+    float: left;
+    color: white;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+}
+.navbar a:hover {
+    float: left;
+    color: #b0bcb2;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: center;
+}
+hr{
+    color: white;
+    width: 100%;
+    margin: 20px;
+}
+caption{
+    font-size: 20px;
+}
+table, th, td {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.assignmentsTable table, .assignmentsTable th , .assignmentsTable td {
+    padding: 10px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: #2d2327;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
